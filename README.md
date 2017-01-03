@@ -1,12 +1,7 @@
 # click-class
 Angular `click-class` directive
 
-- [Demo](https://ryanve.github.io/click-class/)
-- [Usage](#usage)
-- [Setup](#setup)
-- [npm: <b>click-class</b>](https://www.npmjs.com/package/click-class)
-
-## Usage
+## [Demo](https://ryanve.github.io/click-class/)
 
 #### Toggle class on clicked element
 
@@ -39,7 +34,7 @@ angular.module('yourApp', ['clickClass'])
 angular.module('yourApp', []).directive('clickClass', require('click-class'))
 ```
 
-## Development
+## Develop
 
 ```
 npm test
