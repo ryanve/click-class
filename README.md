@@ -11,7 +11,7 @@ Angular `click-class` directive
 
 #### Toggle class on target element(s)
 ```html
-<button class="button" click-class='{".target": ".target--toggled"}'>Toggle</button>
+<button class="button" click-class='{".target": "target--toggled"}'>Toggle</button>
 ```
 
 ## Setup
