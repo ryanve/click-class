@@ -6,7 +6,7 @@ Angular `click-class` directive
 ### Toggling class on self
 
 ```html
-<button class="button" click-class='{".target": ".target--toggled"}'>Toggle</button>
+<button class="button" click-class="button--toggled">Toggle</button>
 ```
 
 ### Toggling class on target element(s)
