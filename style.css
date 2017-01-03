@@ -1,0 +1,56 @@
+html, body { background: whitesmoke; color: black }
+pre { background: inherit; color: inherit }
+fieldset { background: whitesmoke; color: black }
+.button, .is-testing .button { background: darkorange; color: black }
+.button--toggled { background: black; color: darkorange }
+.demo, .is-testing .demo { background: lavender; color: blue }
+.demo--toggled { background: blue; color: lavender }
+.example { background: ghostwhite; color: black }
+:focus { outline-color: navy }
+
+*, :before, :after { box-sizing: border-box }
+html { font: 1em/2 sans-serif; }
+body { width: 100%; margin: auto; padding: 1em }
+a { text-decoration: none }
+a:hover { text-decoration: underline }
+button:enabled:hover { cursor: pointer }
+pre, code { -moz-tab-size: 2; -o-tab-size: 2; tab-size: 2 }
+pre { white-space: pre-wrap; word-wrap: break-word; overflow: auto }
+header, section, aside { display: block }
+fieldset { padding: 0; border: 0; margin: 0 0 1em; }
+pre, fieldset { border-radius: 1em; }
+h1, h2, h3 { line-height: 1 }
+h2 { font-size: 1.5em }
+figure { display: block; margin: 0 0 1em }
+
+.example {
+  padding: .5em 1em;
+}
+
+@media (min-width: 50em) {
+  .example {
+    font-size: 1.125em;
+  }
+}
+
+.demo {
+  padding: .5em 1em;
+  font-size: 1.25em;
+  font-weight: bold;
+}
+
+.button {
+  font-size: inherit;
+  font-style: inherit;
+  font-weight: bold;
+  min-height: 2.5em;
+  display: inline-block;
+  border: 0;
+  border-radius: .25em;
+  padding: .33333em .66666em;
+  margin: 0;
+}
+
+.banner {
+  margin-bottom: 2em;
+}

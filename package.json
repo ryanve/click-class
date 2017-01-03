@@ -1,0 +1,36 @@
+{
+  "name": "click-class",
+  "version": "0.0.0",
+  "description": "Angular click-class directive",
+  "main": "index.js",
+  "scripts": {
+    "pretest": "npm update",
+    "test": "node test.js"
+  },
+  "homepage": "https://github.com/ryanve/click-class",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ryanve/click-class.git"
+  },
+  "keywords": [
+    "angular",
+    "angular-directive",
+    "directive",
+    "interaction",
+    "behavior",
+    "classes",
+    "toggle",
+    "click",
+    "class",
+    "ui",
+    "ui-component"
+  ],
+  "author": "Ryan Van Etten",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ryanve/click-class/issues"
+  },
+  "devDependencies": {
+    "open": "0.0.5"
+  }
+}

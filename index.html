@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en-US" ng-app="test">
+<title>click-class</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="description" content="Angular click-class directive">
+<link rel="stylesheet" href="style.css">
+
+<header class="banner">
+  <h1>click-class</h1>
+  <a class="button" href="https://github.com/ryanve/click-class">Github</a>
+  <a class="button" href="https://www.npmjs.com/package/click-class">npm</a>
+</header>
+
+<section>
+  <h2>Examples</h2>
+  <figure>
+    <pre class="example"><code>&lt;button class="button" click-class="button--toggled"&gt;Toggle&lt;/button&gt;</code></pre>
+  </figure>
+  <figure>
+    <pre class="example"><code>&lt;button class="button" click-class='{".target": ".target--toggled"}'&gt;Toggle&lt;/button&gt;</code></pre>
+  </figure>
+</section>
+
+<section ng-controller="test">
+  <h2>Live Demo</h2>
+  <fieldset>
+    <button class="button" click-class="button--toggled">Toggle</button>
+  </fieldset>
+  <fieldset>
+    <button class="button" click-class='{".demo": "demo--toggled"}'>Toggle <code>.demo</code></button>
+  </fieldset>
+  <figure class="demo">
+    <code>.demo</code>
+  </figure>
+</section>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.slim.min.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.7/angular.min.js"></script>
+<script src="index.js"></script>
+<script src="test.js"></script>
