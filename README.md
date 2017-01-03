@@ -1,15 +1,20 @@
 # click-class
 Angular `click-class` directive
 
-## Examples
+- [Demo](https://ryanve.github.io/click-class/)
+- [Usage](#usage)
+- [Setup](#setup)
+- [npm: <b>click-class</b>](https://www.npmjs.com/package/click-class)
 
-### Toggle class on clicked element
+## Usage
+
+#### Toggle class on clicked element
 
 ```html
 <button class="button" click-class="button--toggled">Toggle</button>
 ```
 
-### Toggle class on target element(s)
+#### Toggle class on target element(s)
 ```html
 <button class="button" click-class='{".target": ".target--toggled"}'>Toggle</button>
 ```
@@ -22,7 +27,7 @@ Angular `click-class` directive
 npm install click-class --save
 ```
 
-#### Declare `'clickClass'` as a dependency on your app
+#### Declare dependency on your app
 
 ```js
 angular.module('yourApp', ['clickClass'])
