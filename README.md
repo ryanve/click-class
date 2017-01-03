@@ -3,13 +3,13 @@ Angular `click-class` directive
 
 ## Examples
 
-### Toggling class on self
+### Toggle class on clicked element
 
 ```html
 <button class="button" click-class="button--toggled">Toggle</button>
 ```
 
-### Toggling class on target element(s)
+### Toggle class on target element(s)
 ```html
 <button class="button" click-class='{".target": ".target--toggled"}'>Toggle</button>
 ```
