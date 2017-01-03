@@ -1,6 +1,6 @@
 {
   "name": "click-class",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "Angular click-class directive",
   "main": "index.js",
   "scripts": {
